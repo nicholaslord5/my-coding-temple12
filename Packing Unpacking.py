@@ -23,7 +23,6 @@ orders = [
 ]
 
 def process_orders(order_list):
-    """Unpack each order tuple and print the details."""
     for customer_name, product, quantity in order_list:
         print(f"Customer: {customer_name}\nProduct: {product}\nQuantity: {quantity}\n")
 
